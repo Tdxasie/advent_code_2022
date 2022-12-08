@@ -21,7 +21,6 @@ for i in range(1,l-1):
 				t[1] = True
 			if t[0] == maxcol:
 				break
-	print(col, '\n')
 
 for i in range(1,l-1):
 	col = lines[:, i]
@@ -36,7 +35,6 @@ for i in range(1,l-1):
 				t[1] = True
 			if t[0] == maxcol:
 				break
-	print(col, '\n')
 
 for i in range(1,l-1):
 	col = lines[i, :]
@@ -50,9 +48,7 @@ for i in range(1,l-1):
 				t[1] = True
 			if t[0] == maxcol:
 				break
-	print(col, '\n')
 
-print('lignes reverse ')
 for i in range(1,l-1):
 	col = lines[i, :]
 	maxcol = max(col[:, 0])
@@ -66,7 +62,6 @@ for i in range(1,l-1):
 				t[1] = True
 			if t[0] == maxcol:
 				break
-	print(col, '\n')
 
 a = [[j[1] for j in i] for i in lines]
 a = sum([item for sublist in a for item in sublist])
