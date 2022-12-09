@@ -9,7 +9,6 @@ directions = {
               'R' : (1, 0),
              }
 
-
 class Head:
     def __init__(self, pos: tuple):
         self.pos = pos
@@ -64,14 +63,14 @@ def parse_file(filename):
 def run_sim(filename):
     lines = parse_file(filename)
     
-    head = Head([0, 0])
-    tail1 = Tail(head, [0,0])
+    head = Head([12,5])
+    tail1 = Tail(head, [12,5])
     head.add_tail(tail1)
     
     tails = [tail1]
     
-    for i in range(8):
-        tail = Tail(tails[i], [0,0])
+    for i in range(9): # forgotten one tail ffs
+        tail = Tail(tails[i], [12,5])
         tails[i].add_tail(tail)
         tails.append(tail)
 
@@ -82,14 +81,22 @@ def run_sim(filename):
         distance = int(distance)
         direction = directions[command]
         
-        new_positions = head.move(direction, distance)
+        for i in range(distance):
+            new_positions = head.move(direction, 1)
         
-        tail_positions.extend(new_positions)
+            positions = [head.pos] + [t.pos for t in tails] + [(12,5)]
+            print(positions[0])
+            # plt.xlim([0, 26])
+            # plt.ylim([0, 20])
+            # plt.plot([i[0] for i in positions], [i[1] for i in positions], '*')
+
+            # plt.waitforbuttonpress()
+            # plt.clf()
+            tail_positions.extend(new_positions)
     
     print(len(set(tail_positions)))
     plt.plot([i[0] for i in tail_positions], [i[1] for i in tail_positions], '*')
-    plt.grid(1)
     plt.show()
     
 if __name__ == '__main__':
-    run_sim('9dec/ex2.txt')
+    run_sim('9dec/input.txt')
