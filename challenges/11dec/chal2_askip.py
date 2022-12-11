@@ -9,7 +9,7 @@ operations = {
     '*' : lambda a, b : a*b
 }
 
-ROUNDS = 20
+ROUNDS = 10_000
 
 class Monkey:
     def __init__(self, id):
@@ -38,7 +38,9 @@ class Monkey:
             item = self.op(item)
             self.inspections += 1
             # monkey didnt damage item
-            item = int(item/3)
+            # item = int(item/3)
+            # pt 2
+            item = item%9_699_690
             dest = [self.dest_false, self.dest_true][item%self.div==0]
             monkeys[dest].items.append(item)
         self.items = []

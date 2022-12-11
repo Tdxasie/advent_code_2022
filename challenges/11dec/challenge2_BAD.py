@@ -1,4 +1,5 @@
 import re
+from uuid import uuid1
 
 pattern = r"Monkey\s(?P<id>\d):\n.+:(?P<items>(?:\s\d+(\n|,))+).+d\s(?P<op>.)\s(?P<val>\d+|\w+)\n.+y\s(?P<div>\d+)\n.+y\s(?P<true>\d)\n.+y\s(?P<false>\d+)"
 
@@ -12,6 +13,14 @@ operations = {
 ROUNDS = 10_000
 
 
+class Item:
+    def __init__(self, initial_worry):
+        self.id = uuid1()
+        self.initial_worry = initial_worry
+        self.worry = initial_worry
+
+    def reset_worry(self):
+        self.worry = self.initial_worry
 class Monkey:
     def __init__(self, id):
         self.id = id
@@ -21,26 +30,35 @@ class Monkey:
         self.dest_true = None
         self.dest_false = None
         self.inspections = 0
+        self.item_ops = {}
 
     def set_items(self, items):
         items = items.strip().split(', ')
-        self.items = [int(i) for i in items]
+        self.items = [Item(int(i)) for i in items]
 
     def set_op(self, op, val):
         op = operations[op]
         if val == 'old':
-            self.op = lambda x: x
+            self.op = lambda x: op(x, x)
         else:
             self.op = lambda x: op(x, int(val))
 
     def throw_items(self, monkeys):
         for item in self.items:
             # monkey inspects item
-            item = self.op(item)
+            item.worry = self.op(item.worry)
             self.inspections += 1
             # worry levels skyrocket
-            # item = int(item/3)
-            dest = [self.dest_false, self.dest_true][item % self.div == 0]
+
+            if item.id not in self.item_ops.keys():
+                self.item_ops[item.id] = []
+                
+            dest = [self.dest_false, self.dest_true][item.worry % self.div == 0]
+            if dest in self.item_ops[item.id]:
+                item.reset_worry()
+                self.item_ops[item.id] = []
+            else:
+                self.item_ops[item.id].append(dest)
             monkeys[dest].items.append(item)
         self.items = []
 
@@ -66,8 +84,6 @@ def run_chal1(filename):
         print(f'Round {i}')
         for monkey in monkeys:
             monkey.throw_items(monkeys)
-        # for monkey in monkeys:
-        #     print(f'Monkey {monkey.id} : {monkey.items}')
 
     inspections = [m.inspections for m in monkeys]
     a = sorted(inspections)[-2:]
@@ -75,4 +91,4 @@ def run_chal1(filename):
 
 
 if __name__ == '__main__':
-    run_chal1('11dec/ex.txt')
+    run_chal1('11dec/input.txt')
