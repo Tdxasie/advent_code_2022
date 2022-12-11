@@ -21,7 +21,7 @@ def print_pixel(pixel, cycle):
         
 def find_pixel(cycle, val):
     if cycle == 0:
-        return '.'
+        return 'CRT'
     
     line_pos = cycle%40
     
@@ -29,10 +29,7 @@ def find_pixel(cycle, val):
         return '#'
     return '.'
     
-    
-    
 def crt(reg_vals):
-    print('CRT')
     for cycle, val in enumerate(reg_vals):
         pixel = find_pixel(cycle, val)
         print_pixel(pixel, cycle)
@@ -63,6 +60,5 @@ def run_chall1(filename):
     
     crt(X_values)
     
-
 if __name__ == '__main__':
     run_chall1('10dec/input.txt')
