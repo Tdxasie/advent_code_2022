@@ -1,0 +1,1481 @@
+[
+    {
+        "label": "add",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "uuid1",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uuid1",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uuid1",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uuid1",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "functools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "functools",
+        "description": "functools",
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "namedtuple",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "namedtuple",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "namedtuple",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "treelib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "treelib",
+        "description": "treelib",
+        "detail": "treelib",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "treelib",
+        "description": "treelib",
+        "isExtraImport": true,
+        "detail": "treelib",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "treelib",
+        "description": "treelib",
+        "isExtraImport": true,
+        "detail": "treelib",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "treelib",
+        "description": "treelib",
+        "isExtraImport": true,
+        "detail": "treelib",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "parse_file",
+        "kind": 2,
+        "importPath": "challenges_2022.10dec.10dec1",
+        "description": "challenges_2022.10dec.10dec1",
+        "peekOfCode": "def parse_file(filename):\n    with open(filename) as infile:\n        lines = infile.read().splitlines()\n    return lines\ndef run_chall1(filename):\n    lines = parse_file(filename)\n    X = 1\n    loop_count = 0\n    X_values = [0]\n    for line in lines:",
+        "detail": "challenges_2022.10dec.10dec1",
+        "documentation": {}
+    },
+    {
+        "label": "run_chall1",
+        "kind": 2,
+        "importPath": "challenges_2022.10dec.10dec1",
+        "description": "challenges_2022.10dec.10dec1",
+        "peekOfCode": "def run_chall1(filename):\n    lines = parse_file(filename)\n    X = 1\n    loop_count = 0\n    X_values = [0]\n    for line in lines:\n        l = line.split(' ')\n        inst = l[0]\n        if len(l) > 1:\n            val = int(l[1])",
+        "detail": "challenges_2022.10dec.10dec1",
+        "documentation": {}
+    },
+    {
+        "label": "instruction_times",
+        "kind": 5,
+        "importPath": "challenges_2022.10dec.10dec1",
+        "description": "challenges_2022.10dec.10dec1",
+        "peekOfCode": "instruction_times = {\n    'noop': 1,\n    'addx': 2,\n}\ninterestring_values = [20,60,100,140,180,220]\ndef parse_file(filename):\n    with open(filename) as infile:\n        lines = infile.read().splitlines()\n    return lines\ndef run_chall1(filename):",
+        "detail": "challenges_2022.10dec.10dec1",
+        "documentation": {}
+    },
+    {
+        "label": "interestring_values",
+        "kind": 5,
+        "importPath": "challenges_2022.10dec.10dec1",
+        "description": "challenges_2022.10dec.10dec1",
+        "peekOfCode": "interestring_values = [20,60,100,140,180,220]\ndef parse_file(filename):\n    with open(filename) as infile:\n        lines = infile.read().splitlines()\n    return lines\ndef run_chall1(filename):\n    lines = parse_file(filename)\n    X = 1\n    loop_count = 0\n    X_values = [0]",
+        "detail": "challenges_2022.10dec.10dec1",
+        "documentation": {}
+    },
+    {
+        "label": "parse_file",
+        "kind": 2,
+        "importPath": "challenges_2022.10dec.11dec2",
+        "description": "challenges_2022.10dec.11dec2",
+        "peekOfCode": "def parse_file(filename):\n    with open(filename) as infile:\n        lines = infile.read().splitlines()\n    return lines\ndef print_pixel(pixel, cycle):\n    print(pixel, end='')\n    if cycle%40 == 0:\n        print('')\ndef find_pixel(cycle, val):\n    if cycle == 0:",
+        "detail": "challenges_2022.10dec.11dec2",
+        "documentation": {}
+    },
+    {
+        "label": "print_pixel",
+        "kind": 2,
+        "importPath": "challenges_2022.10dec.11dec2",
+        "description": "challenges_2022.10dec.11dec2",
+        "peekOfCode": "def print_pixel(pixel, cycle):\n    print(pixel, end='')\n    if cycle%40 == 0:\n        print('')\ndef find_pixel(cycle, val):\n    if cycle == 0:\n        return 'CRT'\n    line_pos = cycle%40\n    if line_pos in [val-1, val, val+1]:\n        return '#'",
+        "detail": "challenges_2022.10dec.11dec2",
+        "documentation": {}
+    },
+    {
+        "label": "find_pixel",
+        "kind": 2,
+        "importPath": "challenges_2022.10dec.11dec2",
+        "description": "challenges_2022.10dec.11dec2",
+        "peekOfCode": "def find_pixel(cycle, val):\n    if cycle == 0:\n        return 'CRT'\n    line_pos = cycle%40\n    if line_pos in [val-1, val, val+1]:\n        return '#'\n    return '.'\ndef crt(reg_vals):\n    for cycle, val in enumerate(reg_vals):\n        pixel = find_pixel(cycle, val)",
+        "detail": "challenges_2022.10dec.11dec2",
+        "documentation": {}
+    },
+    {
+        "label": "crt",
+        "kind": 2,
+        "importPath": "challenges_2022.10dec.11dec2",
+        "description": "challenges_2022.10dec.11dec2",
+        "peekOfCode": "def crt(reg_vals):\n    for cycle, val in enumerate(reg_vals):\n        pixel = find_pixel(cycle, val)\n        print_pixel(pixel, cycle)\ndef run_chall1(filename):\n    lines = parse_file(filename)\n    X = 1\n    loop_count = 0\n    X_values = [0]\n    for line in lines:",
+        "detail": "challenges_2022.10dec.11dec2",
+        "documentation": {}
+    },
+    {
+        "label": "run_chall1",
+        "kind": 2,
+        "importPath": "challenges_2022.10dec.11dec2",
+        "description": "challenges_2022.10dec.11dec2",
+        "peekOfCode": "def run_chall1(filename):\n    lines = parse_file(filename)\n    X = 1\n    loop_count = 0\n    X_values = [0]\n    for line in lines:\n        l = line.split(' ')\n        inst = l[0]\n        if len(l) > 1:\n            val = int(l[1])",
+        "detail": "challenges_2022.10dec.11dec2",
+        "documentation": {}
+    },
+    {
+        "label": "instruction_times",
+        "kind": 5,
+        "importPath": "challenges_2022.10dec.11dec2",
+        "description": "challenges_2022.10dec.11dec2",
+        "peekOfCode": "instruction_times = {\n    'noop': 1,\n    'addx': 2,\n}\ninterestring_values = [20, 60, 100, 140, 180, 220]\ndef parse_file(filename):\n    with open(filename) as infile:\n        lines = infile.read().splitlines()\n    return lines\ndef print_pixel(pixel, cycle):",
+        "detail": "challenges_2022.10dec.11dec2",
+        "documentation": {}
+    },
+    {
+        "label": "interestring_values",
+        "kind": 5,
+        "importPath": "challenges_2022.10dec.11dec2",
+        "description": "challenges_2022.10dec.11dec2",
+        "peekOfCode": "interestring_values = [20, 60, 100, 140, 180, 220]\ndef parse_file(filename):\n    with open(filename) as infile:\n        lines = infile.read().splitlines()\n    return lines\ndef print_pixel(pixel, cycle):\n    print(pixel, end='')\n    if cycle%40 == 0:\n        print('')\ndef find_pixel(cycle, val):",
+        "detail": "challenges_2022.10dec.11dec2",
+        "documentation": {}
+    },
+    {
+        "label": "Monkey",
+        "kind": 6,
+        "importPath": "challenges_2022.11dec.chal2_askip",
+        "description": "challenges_2022.11dec.chal2_askip",
+        "peekOfCode": "class Monkey:\n    def __init__(self, id):\n        self.id = id\n        self.items = None\n        self.op = None\n        self.div = None\n        self.dest_true = None\n        self.dest_false = None\n        self.inspections = 0\n    def set_items(self, items):",
+        "detail": "challenges_2022.11dec.chal2_askip",
+        "documentation": {}
+    },
+    {
+        "label": "run_chal1",
+        "kind": 2,
+        "importPath": "challenges_2022.11dec.chal2_askip",
+        "description": "challenges_2022.11dec.chal2_askip",
+        "peekOfCode": "def run_chal1(filename):\n    with open(filename) as infile:\n        lines = infile.read()\n    instructions = [m.groupdict() for m in regexp.finditer(lines)]\n    # make monkeys \n    monkeys = []\n    for inst in instructions:\n        m = Monkey(int(inst['id']))\n        m.set_items(inst['items'])\n        m.set_op(inst['op'], inst['val'])",
+        "detail": "challenges_2022.11dec.chal2_askip",
+        "documentation": {}
+    },
+    {
+        "label": "pattern",
+        "kind": 5,
+        "importPath": "challenges_2022.11dec.chal2_askip",
+        "description": "challenges_2022.11dec.chal2_askip",
+        "peekOfCode": "pattern = r\"Monkey\\s(?P<id>\\d):\\n.+:(?P<items>(?:\\s\\d+(\\n|,))+).+d\\s(?P<op>.)\\s(?P<val>\\d+|\\w+)\\n.+y\\s(?P<div>\\d+)\\n.+y\\s(?P<true>\\d)\\n.+y\\s(?P<false>\\d+)\"\nregexp = re.compile(pattern)\noperations = {\n    '+' : lambda a, b : a+b,\n    '*' : lambda a, b : a*b\n}\nROUNDS = 10_000\nclass Monkey:\n    def __init__(self, id):\n        self.id = id",
+        "detail": "challenges_2022.11dec.chal2_askip",
+        "documentation": {}
+    },
+    {
+        "label": "regexp",
+        "kind": 5,
+        "importPath": "challenges_2022.11dec.chal2_askip",
+        "description": "challenges_2022.11dec.chal2_askip",
+        "peekOfCode": "regexp = re.compile(pattern)\noperations = {\n    '+' : lambda a, b : a+b,\n    '*' : lambda a, b : a*b\n}\nROUNDS = 10_000\nclass Monkey:\n    def __init__(self, id):\n        self.id = id\n        self.items = None",
+        "detail": "challenges_2022.11dec.chal2_askip",
+        "documentation": {}
+    },
+    {
+        "label": "operations",
+        "kind": 5,
+        "importPath": "challenges_2022.11dec.chal2_askip",
+        "description": "challenges_2022.11dec.chal2_askip",
+        "peekOfCode": "operations = {\n    '+' : lambda a, b : a+b,\n    '*' : lambda a, b : a*b\n}\nROUNDS = 10_000\nclass Monkey:\n    def __init__(self, id):\n        self.id = id\n        self.items = None\n        self.op = None",
+        "detail": "challenges_2022.11dec.chal2_askip",
+        "documentation": {}
+    },
+    {
+        "label": "ROUNDS",
+        "kind": 5,
+        "importPath": "challenges_2022.11dec.chal2_askip",
+        "description": "challenges_2022.11dec.chal2_askip",
+        "peekOfCode": "ROUNDS = 10_000\nclass Monkey:\n    def __init__(self, id):\n        self.id = id\n        self.items = None\n        self.op = None\n        self.div = None\n        self.dest_true = None\n        self.dest_false = None\n        self.inspections = 0",
+        "detail": "challenges_2022.11dec.chal2_askip",
+        "documentation": {}
+    },
+    {
+        "label": "Monkey",
+        "kind": 6,
+        "importPath": "challenges_2022.11dec.challenge",
+        "description": "challenges_2022.11dec.challenge",
+        "peekOfCode": "class Monkey:\n    def __init__(self, id):\n        self.id = id\n        self.items = None\n        self.op = None\n        self.div = None\n        self.dest_true = None\n        self.dest_false = None\n        self.inspections = 0\n    def set_items(self, items):",
+        "detail": "challenges_2022.11dec.challenge",
+        "documentation": {}
+    },
+    {
+        "label": "run_chal1",
+        "kind": 2,
+        "importPath": "challenges_2022.11dec.challenge",
+        "description": "challenges_2022.11dec.challenge",
+        "peekOfCode": "def run_chal1(filename):\n    with open(filename) as infile:\n        lines = infile.read()\n    instructions = [m.groupdict() for m in regexp.finditer(lines)]\n    # make monkeys \n    monkeys = []\n    for inst in instructions:\n        m = Monkey(int(inst['id']))\n        m.set_items(inst['items'])\n        m.set_op(inst['op'], inst['val'])",
+        "detail": "challenges_2022.11dec.challenge",
+        "documentation": {}
+    },
+    {
+        "label": "pattern",
+        "kind": 5,
+        "importPath": "challenges_2022.11dec.challenge",
+        "description": "challenges_2022.11dec.challenge",
+        "peekOfCode": "pattern = r\"Monkey\\s(?P<id>\\d):\\n.+:(?P<items>(?:\\s\\d+(\\n|,))+).+d\\s(?P<op>.)\\s(?P<val>\\d+|\\w+)\\n.+y\\s(?P<div>\\d+)\\n.+y\\s(?P<true>\\d)\\n.+y\\s(?P<false>\\d+)\"\nregexp = re.compile(pattern)\noperations = {\n    '+' : lambda a, b : a+b,\n    '*' : lambda a, b : a*b\n}\nROUNDS = 20\nclass Monkey:\n    def __init__(self, id):\n        self.id = id",
+        "detail": "challenges_2022.11dec.challenge",
+        "documentation": {}
+    },
+    {
+        "label": "regexp",
+        "kind": 5,
+        "importPath": "challenges_2022.11dec.challenge",
+        "description": "challenges_2022.11dec.challenge",
+        "peekOfCode": "regexp = re.compile(pattern)\noperations = {\n    '+' : lambda a, b : a+b,\n    '*' : lambda a, b : a*b\n}\nROUNDS = 20\nclass Monkey:\n    def __init__(self, id):\n        self.id = id\n        self.items = None",
+        "detail": "challenges_2022.11dec.challenge",
+        "documentation": {}
+    },
+    {
+        "label": "operations",
+        "kind": 5,
+        "importPath": "challenges_2022.11dec.challenge",
+        "description": "challenges_2022.11dec.challenge",
+        "peekOfCode": "operations = {\n    '+' : lambda a, b : a+b,\n    '*' : lambda a, b : a*b\n}\nROUNDS = 20\nclass Monkey:\n    def __init__(self, id):\n        self.id = id\n        self.items = None\n        self.op = None",
+        "detail": "challenges_2022.11dec.challenge",
+        "documentation": {}
+    },
+    {
+        "label": "ROUNDS",
+        "kind": 5,
+        "importPath": "challenges_2022.11dec.challenge",
+        "description": "challenges_2022.11dec.challenge",
+        "peekOfCode": "ROUNDS = 20\nclass Monkey:\n    def __init__(self, id):\n        self.id = id\n        self.items = None\n        self.op = None\n        self.div = None\n        self.dest_true = None\n        self.dest_false = None\n        self.inspections = 0",
+        "detail": "challenges_2022.11dec.challenge",
+        "documentation": {}
+    },
+    {
+        "label": "Item",
+        "kind": 6,
+        "importPath": "challenges_2022.11dec.challenge2_BAD",
+        "description": "challenges_2022.11dec.challenge2_BAD",
+        "peekOfCode": "class Item:\n    def __init__(self, initial_worry):\n        self.id = uuid1()\n        self.initial_worry = initial_worry\n        self.worry = initial_worry\n    def reset_worry(self):\n        self.worry = self.initial_worry\nclass Monkey:\n    def __init__(self, id):\n        self.id = id",
+        "detail": "challenges_2022.11dec.challenge2_BAD",
+        "documentation": {}
+    },
+    {
+        "label": "Monkey",
+        "kind": 6,
+        "importPath": "challenges_2022.11dec.challenge2_BAD",
+        "description": "challenges_2022.11dec.challenge2_BAD",
+        "peekOfCode": "class Monkey:\n    def __init__(self, id):\n        self.id = id\n        self.items = None\n        self.op = None\n        self.div = None\n        self.dest_true = None\n        self.dest_false = None\n        self.inspections = 0\n        self.item_ops = {}",
+        "detail": "challenges_2022.11dec.challenge2_BAD",
+        "documentation": {}
+    },
+    {
+        "label": "run_chal1",
+        "kind": 2,
+        "importPath": "challenges_2022.11dec.challenge2_BAD",
+        "description": "challenges_2022.11dec.challenge2_BAD",
+        "peekOfCode": "def run_chal1(filename):\n    with open(filename) as infile:\n        lines = infile.read()\n    instructions = [m.groupdict() for m in regexp.finditer(lines)]\n    # make monkeys\n    monkeys = []\n    for inst in instructions:\n        m = Monkey(int(inst['id']))\n        m.set_items(inst['items'])\n        m.set_op(inst['op'], inst['val'])",
+        "detail": "challenges_2022.11dec.challenge2_BAD",
+        "documentation": {}
+    },
+    {
+        "label": "pattern",
+        "kind": 5,
+        "importPath": "challenges_2022.11dec.challenge2_BAD",
+        "description": "challenges_2022.11dec.challenge2_BAD",
+        "peekOfCode": "pattern = r\"Monkey\\s(?P<id>\\d):\\n.+:(?P<items>(?:\\s\\d+(\\n|,))+).+d\\s(?P<op>.)\\s(?P<val>\\d+|\\w+)\\n.+y\\s(?P<div>\\d+)\\n.+y\\s(?P<true>\\d)\\n.+y\\s(?P<false>\\d+)\"\nregexp = re.compile(pattern)\noperations = {\n    '+': lambda a, b: a+b,\n    '*': lambda a, b: a*b\n}\nROUNDS = 10_000\nclass Item:\n    def __init__(self, initial_worry):\n        self.id = uuid1()",
+        "detail": "challenges_2022.11dec.challenge2_BAD",
+        "documentation": {}
+    },
+    {
+        "label": "regexp",
+        "kind": 5,
+        "importPath": "challenges_2022.11dec.challenge2_BAD",
+        "description": "challenges_2022.11dec.challenge2_BAD",
+        "peekOfCode": "regexp = re.compile(pattern)\noperations = {\n    '+': lambda a, b: a+b,\n    '*': lambda a, b: a*b\n}\nROUNDS = 10_000\nclass Item:\n    def __init__(self, initial_worry):\n        self.id = uuid1()\n        self.initial_worry = initial_worry",
+        "detail": "challenges_2022.11dec.challenge2_BAD",
+        "documentation": {}
+    },
+    {
+        "label": "operations",
+        "kind": 5,
+        "importPath": "challenges_2022.11dec.challenge2_BAD",
+        "description": "challenges_2022.11dec.challenge2_BAD",
+        "peekOfCode": "operations = {\n    '+': lambda a, b: a+b,\n    '*': lambda a, b: a*b\n}\nROUNDS = 10_000\nclass Item:\n    def __init__(self, initial_worry):\n        self.id = uuid1()\n        self.initial_worry = initial_worry\n        self.worry = initial_worry",
+        "detail": "challenges_2022.11dec.challenge2_BAD",
+        "documentation": {}
+    },
+    {
+        "label": "ROUNDS",
+        "kind": 5,
+        "importPath": "challenges_2022.11dec.challenge2_BAD",
+        "description": "challenges_2022.11dec.challenge2_BAD",
+        "peekOfCode": "ROUNDS = 10_000\nclass Item:\n    def __init__(self, initial_worry):\n        self.id = uuid1()\n        self.initial_worry = initial_worry\n        self.worry = initial_worry\n    def reset_worry(self):\n        self.worry = self.initial_worry\nclass Monkey:\n    def __init__(self, id):",
+        "detail": "challenges_2022.11dec.challenge2_BAD",
+        "documentation": {}
+    },
+    {
+        "label": "score",
+        "kind": 5,
+        "importPath": "challenges_2022.2dec.chal2",
+        "description": "challenges_2022.2dec.chal2",
+        "peekOfCode": "score = 0\nfor line in lines:\n    l = line.split(' ')\n    if l[1] == 'X': # lose\n        if l[0] == 'A':\n            score += 3\n        if l[0] == 'B':\n            score += 1\n        if l[0] == 'C':\n            score += 2",
+        "detail": "challenges_2022.2dec.chal2",
+        "documentation": {}
+    },
+    {
+        "label": "\tlines",
+        "kind": 5,
+        "importPath": "challenges_2022.3dec.3dec1",
+        "description": "challenges_2022.3dec.3dec1",
+        "peekOfCode": "\tlines = infile.read().splitlines()\ntot = 0\nfor line in lines:\n\tmid = int(len(line)/2)\n\tone, two = set(line[:mid]), set(line[mid:])\n\tl = ord([i for i in one if i in two][0])\n\tif l<91:\n\t\ttot+=l-38\n\telse:\n\t\ttot+=l-96",
+        "detail": "challenges_2022.3dec.3dec1",
+        "documentation": {}
+    },
+    {
+        "label": "tot",
+        "kind": 5,
+        "importPath": "challenges_2022.3dec.3dec1",
+        "description": "challenges_2022.3dec.3dec1",
+        "peekOfCode": "tot = 0\nfor line in lines:\n\tmid = int(len(line)/2)\n\tone, two = set(line[:mid]), set(line[mid:])\n\tl = ord([i for i in one if i in two][0])\n\tif l<91:\n\t\ttot+=l-38\n\telse:\n\t\ttot+=l-96\nprint(tot)",
+        "detail": "challenges_2022.3dec.3dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tmid",
+        "kind": 5,
+        "importPath": "challenges_2022.3dec.3dec1",
+        "description": "challenges_2022.3dec.3dec1",
+        "peekOfCode": "\tmid = int(len(line)/2)\n\tone, two = set(line[:mid]), set(line[mid:])\n\tl = ord([i for i in one if i in two][0])\n\tif l<91:\n\t\ttot+=l-38\n\telse:\n\t\ttot+=l-96\nprint(tot)\n# with open(\"3dec/input.txt\") as infile:\n# \tlines = infile.read().splitlines()",
+        "detail": "challenges_2022.3dec.3dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tl",
+        "kind": 5,
+        "importPath": "challenges_2022.3dec.3dec1",
+        "description": "challenges_2022.3dec.3dec1",
+        "peekOfCode": "\tl = ord([i for i in one if i in two][0])\n\tif l<91:\n\t\ttot+=l-38\n\telse:\n\t\ttot+=l-96\nprint(tot)\n# with open(\"3dec/input.txt\") as infile:\n# \tlines = infile.read().splitlines()\n# tot = 0\n# for line in lines:",
+        "detail": "challenges_2022.3dec.3dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tlines",
+        "kind": 5,
+        "importPath": "challenges_2022.3dec.3dec2",
+        "description": "challenges_2022.3dec.3dec2",
+        "peekOfCode": "\tlines = infile.read().splitlines()\ntot = 0\nfor i in range(0, len(lines), 3):\n\tone = set(lines[i])\n\ttwo = set(lines[i+1])\n\tthree = set(lines[i+2])\n\tl = ord([i for i in one if i in two and i in three][0])\n\tif l<91:\n\t\ttot+=l-38\n\telse:",
+        "detail": "challenges_2022.3dec.3dec2",
+        "documentation": {}
+    },
+    {
+        "label": "tot",
+        "kind": 5,
+        "importPath": "challenges_2022.3dec.3dec2",
+        "description": "challenges_2022.3dec.3dec2",
+        "peekOfCode": "tot = 0\nfor i in range(0, len(lines), 3):\n\tone = set(lines[i])\n\ttwo = set(lines[i+1])\n\tthree = set(lines[i+2])\n\tl = ord([i for i in one if i in two and i in three][0])\n\tif l<91:\n\t\ttot+=l-38\n\telse:\n\t\ttot+=l-96",
+        "detail": "challenges_2022.3dec.3dec2",
+        "documentation": {}
+    },
+    {
+        "label": "\tone",
+        "kind": 5,
+        "importPath": "challenges_2022.3dec.3dec2",
+        "description": "challenges_2022.3dec.3dec2",
+        "peekOfCode": "\tone = set(lines[i])\n\ttwo = set(lines[i+1])\n\tthree = set(lines[i+2])\n\tl = ord([i for i in one if i in two and i in three][0])\n\tif l<91:\n\t\ttot+=l-38\n\telse:\n\t\ttot+=l-96\nprint(tot)",
+        "detail": "challenges_2022.3dec.3dec2",
+        "documentation": {}
+    },
+    {
+        "label": "\ttwo",
+        "kind": 5,
+        "importPath": "challenges_2022.3dec.3dec2",
+        "description": "challenges_2022.3dec.3dec2",
+        "peekOfCode": "\ttwo = set(lines[i+1])\n\tthree = set(lines[i+2])\n\tl = ord([i for i in one if i in two and i in three][0])\n\tif l<91:\n\t\ttot+=l-38\n\telse:\n\t\ttot+=l-96\nprint(tot)",
+        "detail": "challenges_2022.3dec.3dec2",
+        "documentation": {}
+    },
+    {
+        "label": "\tthree",
+        "kind": 5,
+        "importPath": "challenges_2022.3dec.3dec2",
+        "description": "challenges_2022.3dec.3dec2",
+        "peekOfCode": "\tthree = set(lines[i+2])\n\tl = ord([i for i in one if i in two and i in three][0])\n\tif l<91:\n\t\ttot+=l-38\n\telse:\n\t\ttot+=l-96\nprint(tot)",
+        "detail": "challenges_2022.3dec.3dec2",
+        "documentation": {}
+    },
+    {
+        "label": "\tl",
+        "kind": 5,
+        "importPath": "challenges_2022.3dec.3dec2",
+        "description": "challenges_2022.3dec.3dec2",
+        "peekOfCode": "\tl = ord([i for i in one if i in two and i in three][0])\n\tif l<91:\n\t\ttot+=l-38\n\telse:\n\t\ttot+=l-96\nprint(tot)",
+        "detail": "challenges_2022.3dec.3dec2",
+        "documentation": {}
+    },
+    {
+        "label": "\tlines",
+        "kind": 5,
+        "importPath": "challenges_2022.4dec.4dec2",
+        "description": "challenges_2022.4dec.4dec2",
+        "peekOfCode": "\tlines = infile.read().splitlines()\nnum = 0\nfor line in lines:\n\tone, two = line.split(',')\n\ta,b = int(one.split('-')[0]), int(one.split('-')[1])\n\tc,d = int(two.split('-')[0]), int(two.split('-')[1])\n\tif a<=c<=b or a<=d<=b or c<=a<=d or c<=b<=d:\n\t\tnum+=1\nprint(num)",
+        "detail": "challenges_2022.4dec.4dec2",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "challenges_2022.4dec.4dec2",
+        "description": "challenges_2022.4dec.4dec2",
+        "peekOfCode": "num = 0\nfor line in lines:\n\tone, two = line.split(',')\n\ta,b = int(one.split('-')[0]), int(one.split('-')[1])\n\tc,d = int(two.split('-')[0]), int(two.split('-')[1])\n\tif a<=c<=b or a<=d<=b or c<=a<=d or c<=b<=d:\n\t\tnum+=1\nprint(num)",
+        "detail": "challenges_2022.4dec.4dec2",
+        "documentation": {}
+    },
+    {
+        "label": "\ta,b",
+        "kind": 5,
+        "importPath": "challenges_2022.4dec.4dec2",
+        "description": "challenges_2022.4dec.4dec2",
+        "peekOfCode": "\ta,b = int(one.split('-')[0]), int(one.split('-')[1])\n\tc,d = int(two.split('-')[0]), int(two.split('-')[1])\n\tif a<=c<=b or a<=d<=b or c<=a<=d or c<=b<=d:\n\t\tnum+=1\nprint(num)",
+        "detail": "challenges_2022.4dec.4dec2",
+        "documentation": {}
+    },
+    {
+        "label": "\tc,d",
+        "kind": 5,
+        "importPath": "challenges_2022.4dec.4dec2",
+        "description": "challenges_2022.4dec.4dec2",
+        "peekOfCode": "\tc,d = int(two.split('-')[0]), int(two.split('-')[1])\n\tif a<=c<=b or a<=d<=b or c<=a<=d or c<=b<=d:\n\t\tnum+=1\nprint(num)",
+        "detail": "challenges_2022.4dec.4dec2",
+        "documentation": {}
+    },
+    {
+        "label": "\tlines",
+        "kind": 5,
+        "importPath": "challenges_2022.5dec.5dec1",
+        "description": "challenges_2022.5dec.5dec1",
+        "peekOfCode": "\tlines = infile.read().splitlines()\nstacks, instructions = lines[:lines.index('')][:-1], lines[lines.index(''):]\nstacks = [[i for i in a] for a in stacks]\nstacks = [[l[i] for i in range(1,35,4)] for l in stacks[::-1]]\nstacks = [[l[i] for l in stacks if l[i] != ' '] for i in range(9)]\nfor inst in instructions[1:]:\n\tnum, start, end = list(map(int,re.findall('\\d+', inst)))\n\tstacks[end-1] += stacks[start-1][-num:][::-1]\n\tstacks[start-1] = stacks[start-1][:-num]\nend = [l[-1] for l in stacks]",
+        "detail": "challenges_2022.5dec.5dec1",
+        "documentation": {}
+    },
+    {
+        "label": "stacks",
+        "kind": 5,
+        "importPath": "challenges_2022.5dec.5dec1",
+        "description": "challenges_2022.5dec.5dec1",
+        "peekOfCode": "stacks = [[i for i in a] for a in stacks]\nstacks = [[l[i] for i in range(1,35,4)] for l in stacks[::-1]]\nstacks = [[l[i] for l in stacks if l[i] != ' '] for i in range(9)]\nfor inst in instructions[1:]:\n\tnum, start, end = list(map(int,re.findall('\\d+', inst)))\n\tstacks[end-1] += stacks[start-1][-num:][::-1]\n\tstacks[start-1] = stacks[start-1][:-num]\nend = [l[-1] for l in stacks]\nprint(''.join(end))\n# stacks = [[i for i in a] for a in stacks]",
+        "detail": "challenges_2022.5dec.5dec1",
+        "documentation": {}
+    },
+    {
+        "label": "stacks",
+        "kind": 5,
+        "importPath": "challenges_2022.5dec.5dec1",
+        "description": "challenges_2022.5dec.5dec1",
+        "peekOfCode": "stacks = [[l[i] for i in range(1,35,4)] for l in stacks[::-1]]\nstacks = [[l[i] for l in stacks if l[i] != ' '] for i in range(9)]\nfor inst in instructions[1:]:\n\tnum, start, end = list(map(int,re.findall('\\d+', inst)))\n\tstacks[end-1] += stacks[start-1][-num:][::-1]\n\tstacks[start-1] = stacks[start-1][:-num]\nend = [l[-1] for l in stacks]\nprint(''.join(end))\n# stacks = [[i for i in a] for a in stacks]\n# stacks = [[l[i] for i in range(1,35,4)] for l in [[i for i in a] for a in stacks][::-1]]",
+        "detail": "challenges_2022.5dec.5dec1",
+        "documentation": {}
+    },
+    {
+        "label": "stacks",
+        "kind": 5,
+        "importPath": "challenges_2022.5dec.5dec1",
+        "description": "challenges_2022.5dec.5dec1",
+        "peekOfCode": "stacks = [[l[i] for l in stacks if l[i] != ' '] for i in range(9)]\nfor inst in instructions[1:]:\n\tnum, start, end = list(map(int,re.findall('\\d+', inst)))\n\tstacks[end-1] += stacks[start-1][-num:][::-1]\n\tstacks[start-1] = stacks[start-1][:-num]\nend = [l[-1] for l in stacks]\nprint(''.join(end))\n# stacks = [[i for i in a] for a in stacks]\n# stacks = [[l[i] for i in range(1,35,4)] for l in [[i for i in a] for a in stacks][::-1]]\n# stacks = [[l[i] for l in [[l[i] for i in range(1,35,4)] for l in [[i for i in a] for a in stacks][::-1]] if l[i] != ' '] for i in range(9)]",
+        "detail": "challenges_2022.5dec.5dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tstacks[start-1]",
+        "kind": 5,
+        "importPath": "challenges_2022.5dec.5dec1",
+        "description": "challenges_2022.5dec.5dec1",
+        "peekOfCode": "\tstacks[start-1] = stacks[start-1][:-num]\nend = [l[-1] for l in stacks]\nprint(''.join(end))\n# stacks = [[i for i in a] for a in stacks]\n# stacks = [[l[i] for i in range(1,35,4)] for l in [[i for i in a] for a in stacks][::-1]]\n# stacks = [[l[i] for l in [[l[i] for i in range(1,35,4)] for l in [[i for i in a] for a in stacks][::-1]] if l[i] != ' '] for i in range(9)]\nimport re \nwith open(\"input.txt\") as infile:\n\tlines = infile.read().splitlines()\nstacks, instructions = lines[:lines.index('')][:-1], lines[lines.index(''):]",
+        "detail": "challenges_2022.5dec.5dec1",
+        "documentation": {}
+    },
+    {
+        "label": "end",
+        "kind": 5,
+        "importPath": "challenges_2022.5dec.5dec1",
+        "description": "challenges_2022.5dec.5dec1",
+        "peekOfCode": "end = [l[-1] for l in stacks]\nprint(''.join(end))\n# stacks = [[i for i in a] for a in stacks]\n# stacks = [[l[i] for i in range(1,35,4)] for l in [[i for i in a] for a in stacks][::-1]]\n# stacks = [[l[i] for l in [[l[i] for i in range(1,35,4)] for l in [[i for i in a] for a in stacks][::-1]] if l[i] != ' '] for i in range(9)]\nimport re \nwith open(\"input.txt\") as infile:\n\tlines = infile.read().splitlines()\nstacks, instructions = lines[:lines.index('')][:-1], lines[lines.index(''):]\nstacks = [[i for i in a] for a in stacks]",
+        "detail": "challenges_2022.5dec.5dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tlines",
+        "kind": 5,
+        "importPath": "challenges_2022.5dec.5dec1",
+        "description": "challenges_2022.5dec.5dec1",
+        "peekOfCode": "\tlines = infile.read().splitlines()\nstacks, instructions = lines[:lines.index('')][:-1], lines[lines.index(''):]\nstacks = [[i for i in a] for a in stacks]\nstacks = [[l[i] for i in range(1,35,4)] for l in stacks[::-1]]\nstacks = [[l[i] for l in stacks if l[i] != ' '] for i in range(9)]\n# for inst in instructions[1:]:\n# \tnum, start, end = list(map(int,re.findall('\\d+', inst)))\n# \tstacks[end-1] += stacks[start-1][-num:][::-1]\n# \tstacks[start-1] = stacks[start-1][:-num]\n# [list(map(int,re.findall('\\d+', inst)))for i in inst]",
+        "detail": "challenges_2022.5dec.5dec1",
+        "documentation": {}
+    },
+    {
+        "label": "stacks",
+        "kind": 5,
+        "importPath": "challenges_2022.5dec.5dec1",
+        "description": "challenges_2022.5dec.5dec1",
+        "peekOfCode": "stacks = [[i for i in a] for a in stacks]\nstacks = [[l[i] for i in range(1,35,4)] for l in stacks[::-1]]\nstacks = [[l[i] for l in stacks if l[i] != ' '] for i in range(9)]\n# for inst in instructions[1:]:\n# \tnum, start, end = list(map(int,re.findall('\\d+', inst)))\n# \tstacks[end-1] += stacks[start-1][-num:][::-1]\n# \tstacks[start-1] = stacks[start-1][:-num]\n# [list(map(int,re.findall('\\d+', inst)))for i in inst]\ns = stacks\nprint([[[s[n[2]-1].append(s[n[1]-1].pop())for _ in range(n[0])] for [n] in [list(map(int,__import__('re').findall('\\d+', i)))]] for i in instructions])",
+        "detail": "challenges_2022.5dec.5dec1",
+        "documentation": {}
+    },
+    {
+        "label": "stacks",
+        "kind": 5,
+        "importPath": "challenges_2022.5dec.5dec1",
+        "description": "challenges_2022.5dec.5dec1",
+        "peekOfCode": "stacks = [[l[i] for i in range(1,35,4)] for l in stacks[::-1]]\nstacks = [[l[i] for l in stacks if l[i] != ' '] for i in range(9)]\n# for inst in instructions[1:]:\n# \tnum, start, end = list(map(int,re.findall('\\d+', inst)))\n# \tstacks[end-1] += stacks[start-1][-num:][::-1]\n# \tstacks[start-1] = stacks[start-1][:-num]\n# [list(map(int,re.findall('\\d+', inst)))for i in inst]\ns = stacks\nprint([[[s[n[2]-1].append(s[n[1]-1].pop())for _ in range(n[0])] for [n] in [list(map(int,__import__('re').findall('\\d+', i)))]] for i in instructions])\nprint(''.join([l[-1] for l in stacks]))",
+        "detail": "challenges_2022.5dec.5dec1",
+        "documentation": {}
+    },
+    {
+        "label": "stacks",
+        "kind": 5,
+        "importPath": "challenges_2022.5dec.5dec1",
+        "description": "challenges_2022.5dec.5dec1",
+        "peekOfCode": "stacks = [[l[i] for l in stacks if l[i] != ' '] for i in range(9)]\n# for inst in instructions[1:]:\n# \tnum, start, end = list(map(int,re.findall('\\d+', inst)))\n# \tstacks[end-1] += stacks[start-1][-num:][::-1]\n# \tstacks[start-1] = stacks[start-1][:-num]\n# [list(map(int,re.findall('\\d+', inst)))for i in inst]\ns = stacks\nprint([[[s[n[2]-1].append(s[n[1]-1].pop())for _ in range(n[0])] for [n] in [list(map(int,__import__('re').findall('\\d+', i)))]] for i in instructions])\nprint(''.join([l[-1] for l in stacks]))\n# for line in lines:",
+        "detail": "challenges_2022.5dec.5dec1",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "challenges_2022.5dec.5dec1",
+        "description": "challenges_2022.5dec.5dec1",
+        "peekOfCode": "s = stacks\nprint([[[s[n[2]-1].append(s[n[1]-1].pop())for _ in range(n[0])] for [n] in [list(map(int,__import__('re').findall('\\d+', i)))]] for i in instructions])\nprint(''.join([l[-1] for l in stacks]))\n# for line in lines:\n# \tprint(re.findall(\"[A-Z]|\\s{4}\", line))\n# s = lines\n# print([i for l in s if(i:=__import__('re').findall(\"[A-Z]|\\s{4}\",l))!=[]][::-1])\n# print([__import__('re').findall(\"[A-Z]|\\s{4}\",l) for l in s][::-1])\n# [[x[i] for x in stacks if x[i] != ' '] for i in range(9)]",
+        "detail": "challenges_2022.5dec.5dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tlines",
+        "kind": 5,
+        "importPath": "challenges_2022.5dec.5dec2",
+        "description": "challenges_2022.5dec.5dec2",
+        "peekOfCode": "\tlines = infile.read().splitlines()\nstacks, instructions = lines[:lines.index('')][:-1], lines[lines.index(''):]\nstacks = [[i for i in a] for a in stacks]\nstacks = [[l[i] for i in range(1,35,4)] for l in stacks[::-1]]\nstacks = [[l[i] for l in stacks if l[i] != ' '] for i in range(9)]\nfor inst in instructions[1:]:\n\tnum, start, end = list(map(int,re.findall('\\d+', inst)))\n\tstacks[end-1] += stacks[start-1][-num:]\n\tstacks[start-1] = stacks[start-1][:-num]\nend = [l[-1] for l in stacks]",
+        "detail": "challenges_2022.5dec.5dec2",
+        "documentation": {}
+    },
+    {
+        "label": "stacks",
+        "kind": 5,
+        "importPath": "challenges_2022.5dec.5dec2",
+        "description": "challenges_2022.5dec.5dec2",
+        "peekOfCode": "stacks = [[i for i in a] for a in stacks]\nstacks = [[l[i] for i in range(1,35,4)] for l in stacks[::-1]]\nstacks = [[l[i] for l in stacks if l[i] != ' '] for i in range(9)]\nfor inst in instructions[1:]:\n\tnum, start, end = list(map(int,re.findall('\\d+', inst)))\n\tstacks[end-1] += stacks[start-1][-num:]\n\tstacks[start-1] = stacks[start-1][:-num]\nend = [l[-1] for l in stacks]\nprint(''.join(end))",
+        "detail": "challenges_2022.5dec.5dec2",
+        "documentation": {}
+    },
+    {
+        "label": "stacks",
+        "kind": 5,
+        "importPath": "challenges_2022.5dec.5dec2",
+        "description": "challenges_2022.5dec.5dec2",
+        "peekOfCode": "stacks = [[l[i] for i in range(1,35,4)] for l in stacks[::-1]]\nstacks = [[l[i] for l in stacks if l[i] != ' '] for i in range(9)]\nfor inst in instructions[1:]:\n\tnum, start, end = list(map(int,re.findall('\\d+', inst)))\n\tstacks[end-1] += stacks[start-1][-num:]\n\tstacks[start-1] = stacks[start-1][:-num]\nend = [l[-1] for l in stacks]\nprint(''.join(end))",
+        "detail": "challenges_2022.5dec.5dec2",
+        "documentation": {}
+    },
+    {
+        "label": "stacks",
+        "kind": 5,
+        "importPath": "challenges_2022.5dec.5dec2",
+        "description": "challenges_2022.5dec.5dec2",
+        "peekOfCode": "stacks = [[l[i] for l in stacks if l[i] != ' '] for i in range(9)]\nfor inst in instructions[1:]:\n\tnum, start, end = list(map(int,re.findall('\\d+', inst)))\n\tstacks[end-1] += stacks[start-1][-num:]\n\tstacks[start-1] = stacks[start-1][:-num]\nend = [l[-1] for l in stacks]\nprint(''.join(end))",
+        "detail": "challenges_2022.5dec.5dec2",
+        "documentation": {}
+    },
+    {
+        "label": "\tstacks[start-1]",
+        "kind": 5,
+        "importPath": "challenges_2022.5dec.5dec2",
+        "description": "challenges_2022.5dec.5dec2",
+        "peekOfCode": "\tstacks[start-1] = stacks[start-1][:-num]\nend = [l[-1] for l in stacks]\nprint(''.join(end))",
+        "detail": "challenges_2022.5dec.5dec2",
+        "documentation": {}
+    },
+    {
+        "label": "end",
+        "kind": 5,
+        "importPath": "challenges_2022.5dec.5dec2",
+        "description": "challenges_2022.5dec.5dec2",
+        "peekOfCode": "end = [l[-1] for l in stacks]\nprint(''.join(end))",
+        "detail": "challenges_2022.5dec.5dec2",
+        "documentation": {}
+    },
+    {
+        "label": "\tline",
+        "kind": 5,
+        "importPath": "challenges_2022.6dec.6dec1",
+        "description": "challenges_2022.6dec.6dec1",
+        "peekOfCode": "\tline = infile.readline()\nfor i in range(3, len(line)):\n\tif len(set(line[i-3:i+1])) == 4:\n\t\tprint(i+1)\n\t\tbreak",
+        "detail": "challenges_2022.6dec.6dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tline",
+        "kind": 5,
+        "importPath": "challenges_2022.6dec.6dec2",
+        "description": "challenges_2022.6dec.6dec2",
+        "peekOfCode": "\tline = infile.readline()\nfor i in range(13, len(line)):\n\tif len(set(line[i-13:i+1])) == 14:\n\t\tprint(i+1)\n\t\tbreak",
+        "detail": "challenges_2022.6dec.6dec2",
+        "documentation": {}
+    },
+    {
+        "label": "Dir",
+        "kind": 6,
+        "importPath": "challenges_2022.7dec.7dec1",
+        "description": "challenges_2022.7dec.7dec1",
+        "peekOfCode": "class Dir(Node):\n    def __init__(self, name, id, tree):\n        super().__init__(name, id)\n        self.files = []\n        self._tree = tree\n    def add_file(self, size, filename):\n        file = File(size, filename)\n        if file not in self.files:\n            self.files.append(File(size, filename))\n    def weight(self):",
+        "detail": "challenges_2022.7dec.7dec1",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "kind": 5,
+        "importPath": "challenges_2022.7dec.7dec1",
+        "description": "challenges_2022.7dec.7dec1",
+        "peekOfCode": "File = namedtuple('File', 'size filename')\nclass Dir(Node):\n    def __init__(self, name, id, tree):\n        super().__init__(name, id)\n        self.files = []\n        self._tree = tree\n    def add_file(self, size, filename):\n        file = File(size, filename)\n        if file not in self.files:\n            self.files.append(File(size, filename))",
+        "detail": "challenges_2022.7dec.7dec1",
+        "documentation": {}
+    },
+    {
+        "label": "tree",
+        "kind": 5,
+        "importPath": "challenges_2022.7dec.7dec1",
+        "description": "challenges_2022.7dec.7dec1",
+        "peekOfCode": "tree = Tree()\ncurrent_node = None\nfor line in lines:\n    line = line.split(' ')\n    if line[0] == '$':\n        match line[1]:\n            case 'cd':\n                name = line[2]\n                if name != '..':\n                    try:",
+        "detail": "challenges_2022.7dec.7dec1",
+        "documentation": {}
+    },
+    {
+        "label": "current_node",
+        "kind": 5,
+        "importPath": "challenges_2022.7dec.7dec1",
+        "description": "challenges_2022.7dec.7dec1",
+        "peekOfCode": "current_node = None\nfor line in lines:\n    line = line.split(' ')\n    if line[0] == '$':\n        match line[1]:\n            case 'cd':\n                name = line[2]\n                if name != '..':\n                    try:\n                        # add dir to tree and set to current",
+        "detail": "challenges_2022.7dec.7dec1",
+        "documentation": {}
+    },
+    {
+        "label": "Dir",
+        "kind": 6,
+        "importPath": "challenges_2022.7dec.7dec2",
+        "description": "challenges_2022.7dec.7dec2",
+        "peekOfCode": "class Dir(Node):\n    def __init__(self, name, id, tree):\n        super().__init__(name, id)\n        self.files = []\n        self._tree = tree\n    def add_file(self, size, filename):\n        file = File(size, filename)\n        if file not in self.files:\n            self.files.append(File(size, filename))\n    def weight(self):",
+        "detail": "challenges_2022.7dec.7dec2",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "kind": 5,
+        "importPath": "challenges_2022.7dec.7dec2",
+        "description": "challenges_2022.7dec.7dec2",
+        "peekOfCode": "File = namedtuple('File', 'size filename')\nclass Dir(Node):\n    def __init__(self, name, id, tree):\n        super().__init__(name, id)\n        self.files = []\n        self._tree = tree\n    def add_file(self, size, filename):\n        file = File(size, filename)\n        if file not in self.files:\n            self.files.append(File(size, filename))",
+        "detail": "challenges_2022.7dec.7dec2",
+        "documentation": {}
+    },
+    {
+        "label": "tree",
+        "kind": 5,
+        "importPath": "challenges_2022.7dec.7dec2",
+        "description": "challenges_2022.7dec.7dec2",
+        "peekOfCode": "tree = Tree()\ncurrent_node = None\nfor line in lines:\n    line = line.split(' ')\n    if line[0] == '$':\n        match line[1]:\n            case 'cd':\n                name = line[2]\n                if name != '..':\n                    try:",
+        "detail": "challenges_2022.7dec.7dec2",
+        "documentation": {}
+    },
+    {
+        "label": "current_node",
+        "kind": 5,
+        "importPath": "challenges_2022.7dec.7dec2",
+        "description": "challenges_2022.7dec.7dec2",
+        "peekOfCode": "current_node = None\nfor line in lines:\n    line = line.split(' ')\n    if line[0] == '$':\n        match line[1]:\n            case 'cd':\n                name = line[2]\n                if name != '..':\n                    try:\n                        # add dir to tree and set to current",
+        "detail": "challenges_2022.7dec.7dec2",
+        "documentation": {}
+    },
+    {
+        "label": "total_space_availiable",
+        "kind": 5,
+        "importPath": "challenges_2022.7dec.7dec2",
+        "description": "challenges_2022.7dec.7dec2",
+        "peekOfCode": "total_space_availiable = 70_000_000\nneeded = 30_000_000\nall_weights = sorted([d.weight() for d in tree.all_nodes()])\nroot_weight = all_weights[-1]\nprint(sorted([i for i in all_weights if i > needed-(total_space_availiable-root_weight)])[0])\ntree.save2file('tree.txt')",
+        "detail": "challenges_2022.7dec.7dec2",
+        "documentation": {}
+    },
+    {
+        "label": "needed",
+        "kind": 5,
+        "importPath": "challenges_2022.7dec.7dec2",
+        "description": "challenges_2022.7dec.7dec2",
+        "peekOfCode": "needed = 30_000_000\nall_weights = sorted([d.weight() for d in tree.all_nodes()])\nroot_weight = all_weights[-1]\nprint(sorted([i for i in all_weights if i > needed-(total_space_availiable-root_weight)])[0])\ntree.save2file('tree.txt')",
+        "detail": "challenges_2022.7dec.7dec2",
+        "documentation": {}
+    },
+    {
+        "label": "all_weights",
+        "kind": 5,
+        "importPath": "challenges_2022.7dec.7dec2",
+        "description": "challenges_2022.7dec.7dec2",
+        "peekOfCode": "all_weights = sorted([d.weight() for d in tree.all_nodes()])\nroot_weight = all_weights[-1]\nprint(sorted([i for i in all_weights if i > needed-(total_space_availiable-root_weight)])[0])\ntree.save2file('tree.txt')",
+        "detail": "challenges_2022.7dec.7dec2",
+        "documentation": {}
+    },
+    {
+        "label": "root_weight",
+        "kind": 5,
+        "importPath": "challenges_2022.7dec.7dec2",
+        "description": "challenges_2022.7dec.7dec2",
+        "peekOfCode": "root_weight = all_weights[-1]\nprint(sorted([i for i in all_weights if i > needed-(total_space_availiable-root_weight)])[0])\ntree.save2file('tree.txt')",
+        "detail": "challenges_2022.7dec.7dec2",
+        "documentation": {}
+    },
+    {
+        "label": "Dir",
+        "kind": 6,
+        "importPath": "challenges_2022.7dec.tree",
+        "description": "challenges_2022.7dec.tree",
+        "peekOfCode": "class Dir(treelib.Node):\n    def __init__(self, name, id):\n        super().__init__(name, id)\n        self.files = []\n    def add_file(self, size, filename):\n        file = File(size, filename)\n        if file not in self.files:\n            self.files.append(File(size, filename))\nid = uuid1()\ntree.add_node(Dir('tgfrero', id), parent='mark1')",
+        "detail": "challenges_2022.7dec.tree",
+        "documentation": {}
+    },
+    {
+        "label": "tree",
+        "kind": 5,
+        "importPath": "challenges_2022.7dec.tree",
+        "description": "challenges_2022.7dec.tree",
+        "peekOfCode": "tree = Tree() # creating an object\ntree.create_node(\"Harry\", \"harry\")  # root node \ntree.create_node(\"Jane\", \"jane\", parent=\"harry\") #adding nodes\ntree.create_node(\"Bill\", \"bill\", parent=\"harry\")\ntree.create_node(\"Diane\", \"diane\", parent=\"jane\")\ntree.create_node(\"Mary\", \"mary\", parent=\"diane\")\ntree.create_node(\"Mark\", \"mark\", parent=\"jane\")\ntry:\n    print(tree.create_node(\"Mark\", \"mark1\", parent=\"diane\"))\nexcept treelib.exceptions.DuplicatedNodeIdError as e:",
+        "detail": "challenges_2022.7dec.tree",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "kind": 5,
+        "importPath": "challenges_2022.7dec.tree",
+        "description": "challenges_2022.7dec.tree",
+        "peekOfCode": "File = namedtuple('File', 'size filename')\nclass Dir(treelib.Node):\n    def __init__(self, name, id):\n        super().__init__(name, id)\n        self.files = []\n    def add_file(self, size, filename):\n        file = File(size, filename)\n        if file not in self.files:\n            self.files.append(File(size, filename))\nid = uuid1()",
+        "detail": "challenges_2022.7dec.tree",
+        "documentation": {}
+    },
+    {
+        "label": "id",
+        "kind": 5,
+        "importPath": "challenges_2022.7dec.tree",
+        "description": "challenges_2022.7dec.tree",
+        "peekOfCode": "id = uuid1()\ntree.add_node(Dir('tgfrero', id), parent='mark1')\na = tree.get_node(id)\na.add_file('34', 'lovesos')\na.add_file('34', 'lovesos')\nprint(a.files)\ntree.show()\na = tree.parent('diane').identifier\nprint(a)",
+        "detail": "challenges_2022.7dec.tree",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "challenges_2022.7dec.tree",
+        "description": "challenges_2022.7dec.tree",
+        "peekOfCode": "a = tree.get_node(id)\na.add_file('34', 'lovesos')\na.add_file('34', 'lovesos')\nprint(a.files)\ntree.show()\na = tree.parent('diane').identifier\nprint(a)",
+        "detail": "challenges_2022.7dec.tree",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "challenges_2022.7dec.tree",
+        "description": "challenges_2022.7dec.tree",
+        "peekOfCode": "a = tree.parent('diane').identifier\nprint(a)",
+        "detail": "challenges_2022.7dec.tree",
+        "documentation": {}
+    },
+    {
+        "label": "\tlines",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tlines = infile.read().splitlines()\nlines = np.array([[[int(i),False] for i in l] for l in lines])\nl,h,d = lines.shape\nfor i in range(1,l-1):\n\tcol = lines[:, i]\n\tmaxcol = max(col[:, 0])\n\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "lines",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "lines = np.array([[[int(i),False] for i in l] for l in lines])\nl,h,d = lines.shape\nfor i in range(1,l-1):\n\tcol = lines[:, i]\n\tmaxcol = max(col[:, 0])\n\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "l,h,d",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "l,h,d = lines.shape\nfor i in range(1,l-1):\n\tcol = lines[:, i]\n\tmaxcol = max(col[:, 0])\n\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tcol",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tcol = lines[:, i]\n\tmaxcol = max(col[:, 0])\n\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tmaxcol",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tmaxcol = max(col[:, 0])\n\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\nfor i in range(1,l-1):",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tmax_seen",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\nfor i in range(1,l-1):\n\tcol = lines[:, i]",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tcol[0][1]",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\nfor i in range(1,l-1):\n\tcol = lines[:, i]\n\tmaxcol = max(col[:, 0])",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tmax_seen",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\nfor i in range(1,l-1):\n\tcol = lines[:, i]\n\tmaxcol = max(col[:, 0])\n\tcol = col[::-1]\n\tmax_seen = col[0][0]\n\tcol[0][1] = True",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tt[1]",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\nfor i in range(1,l-1):\n\tcol = lines[:, i]\n\tmaxcol = max(col[:, 0])\n\tcol = col[::-1]\n\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tcol",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tcol = lines[:, i]\n\tmaxcol = max(col[:, 0])\n\tcol = col[::-1]\n\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tmaxcol",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tmaxcol = max(col[:, 0])\n\tcol = col[::-1]\n\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tcol",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tcol = col[::-1]\n\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\nfor i in range(1,l-1):",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tmax_seen",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\nfor i in range(1,l-1):\n\tcol = lines[i, :]",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tcol[0][1]",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\nfor i in range(1,l-1):\n\tcol = lines[i, :]\n\tmaxcol = max(col[:, 0])",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tmax_seen",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\nfor i in range(1,l-1):\n\tcol = lines[i, :]\n\tmaxcol = max(col[:, 0])\n\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tt[1]",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\nfor i in range(1,l-1):\n\tcol = lines[i, :]\n\tmaxcol = max(col[:, 0])\n\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tcol",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tcol = lines[i, :]\n\tmaxcol = max(col[:, 0])\n\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tmaxcol",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tmaxcol = max(col[:, 0])\n\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\nfor i in range(1,l-1):",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tmax_seen",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\nfor i in range(1,l-1):\n\tcol = lines[i, :]",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tcol[0][1]",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\nfor i in range(1,l-1):\n\tcol = lines[i, :]\n\tmaxcol = max(col[:, 0])",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tmax_seen",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\nfor i in range(1,l-1):\n\tcol = lines[i, :]\n\tmaxcol = max(col[:, 0])\n\tcol = col[::-1]\n\tmax_seen = col[0][0]\n\tcol[0][1] = True",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tt[1]",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\nfor i in range(1,l-1):\n\tcol = lines[i, :]\n\tmaxcol = max(col[:, 0])\n\tcol = col[::-1]\n\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tcol",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tcol = lines[i, :]\n\tmaxcol = max(col[:, 0])\n\tcol = col[::-1]\n\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tmaxcol",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tmaxcol = max(col[:, 0])\n\tcol = col[::-1]\n\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tcol",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tcol = col[::-1]\n\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\na = [[j[1] for j in i] for i in lines]",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tmax_seen",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tmax_seen = col[0][0]\n\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\na = [[j[1] for j in i] for i in lines]\na = sum([item for sublist in a for item in sublist])",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\tcol[0][1]",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\tcol[0][1] = True\n\tfor t in col[1:]:\n\t\tif t[0] > max_seen:\n\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\na = [[j[1] for j in i] for i in lines]\na = sum([item for sublist in a for item in sublist])\nprint(a+4)",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tmax_seen",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\t\t\tmax_seen = t[0]\n\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\na = [[j[1] for j in i] for i in lines]\na = sum([item for sublist in a for item in sublist])\nprint(a+4)",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tt[1]",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "\t\t\tt[1] = True if not t[1] else t[1]\n\t\t\tif t[0] == maxcol:\n\t\t\t\tbreak\na = [[j[1] for j in i] for i in lines]\na = sum([item for sublist in a for item in sublist])\nprint(a+4)",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "a = [[j[1] for j in i] for i in lines]\na = sum([item for sublist in a for item in sublist])\nprint(a+4)",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec1",
+        "description": "challenges_2022.8dec.8dec1",
+        "peekOfCode": "a = sum([item for sublist in a for item in sublist])\nprint(a+4)",
+        "detail": "challenges_2022.8dec.8dec1",
+        "documentation": {}
+    },
+    {
+        "label": "count_trees",
+        "kind": 2,
+        "importPath": "challenges_2022.8dec.8dec2",
+        "description": "challenges_2022.8dec.8dec2",
+        "peekOfCode": "def count_trees(tree, dir):\n    count = 0\n    for t in dir:\n        count+=1\n        if t>=tree:\n            break\n    return count\n# print(lines)\nmax_view = 0\nfor i in range(l):  # lines ",
+        "detail": "challenges_2022.8dec.8dec2",
+        "documentation": {}
+    },
+    {
+        "label": "\tlines",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec2",
+        "description": "challenges_2022.8dec.8dec2",
+        "peekOfCode": "\tlines = infile.read().splitlines()\nlines = np.array([[int(i) for i in l] for l in lines])\nl,h = lines.shape\nscores = np.zeros((l,h))\ndef count_trees(tree, dir):\n    count = 0\n    for t in dir:\n        count+=1\n        if t>=tree:\n            break",
+        "detail": "challenges_2022.8dec.8dec2",
+        "documentation": {}
+    },
+    {
+        "label": "lines",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec2",
+        "description": "challenges_2022.8dec.8dec2",
+        "peekOfCode": "lines = np.array([[int(i) for i in l] for l in lines])\nl,h = lines.shape\nscores = np.zeros((l,h))\ndef count_trees(tree, dir):\n    count = 0\n    for t in dir:\n        count+=1\n        if t>=tree:\n            break\n    return count",
+        "detail": "challenges_2022.8dec.8dec2",
+        "documentation": {}
+    },
+    {
+        "label": "l,h",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec2",
+        "description": "challenges_2022.8dec.8dec2",
+        "peekOfCode": "l,h = lines.shape\nscores = np.zeros((l,h))\ndef count_trees(tree, dir):\n    count = 0\n    for t in dir:\n        count+=1\n        if t>=tree:\n            break\n    return count\n# print(lines)",
+        "detail": "challenges_2022.8dec.8dec2",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec2",
+        "description": "challenges_2022.8dec.8dec2",
+        "peekOfCode": "scores = np.zeros((l,h))\ndef count_trees(tree, dir):\n    count = 0\n    for t in dir:\n        count+=1\n        if t>=tree:\n            break\n    return count\n# print(lines)\nmax_view = 0",
+        "detail": "challenges_2022.8dec.8dec2",
+        "documentation": {}
+    },
+    {
+        "label": "max_view",
+        "kind": 5,
+        "importPath": "challenges_2022.8dec.8dec2",
+        "description": "challenges_2022.8dec.8dec2",
+        "peekOfCode": "max_view = 0\nfor i in range(l):  # lines \n    for j in range(h):  # cols \n        count = 1\n        tree = lines[i][j]\n        up = lines[:i, j][::-1]\n        if up.any():\n            count *= count_trees(tree, up)\n        else:\n            continue",
+        "detail": "challenges_2022.8dec.8dec2",
+        "documentation": {}
+    },
+    {
+        "label": "Head",
+        "kind": 6,
+        "importPath": "challenges_2022.9dec.9dec1",
+        "description": "challenges_2022.9dec.9dec1",
+        "peekOfCode": "class Head:\n    def __init__(self, pos: tuple):\n        self.pos = pos\n        self.tail = None\n    def add_tail(self, tail):\n        self.tail = tail\n    def move(self, direction: tuple, distance: int) -> list:\n        tail_positions = []\n        for _ in range(distance):\n            self.pos = list(map(add, direction, self.pos))",
+        "detail": "challenges_2022.9dec.9dec1",
+        "documentation": {}
+    },
+    {
+        "label": "Tail",
+        "kind": 6,
+        "importPath": "challenges_2022.9dec.9dec1",
+        "description": "challenges_2022.9dec.9dec1",
+        "peekOfCode": "class Tail:\n    def __init__(self, head, pos: tuple, tail = None):\n        self.head = head\n        self.tail = tail\n        self.pos = pos\n    def follow(self, target_pos: tuple):\n        # check if target pos close\n        # if true dont move\n        distx = target_pos[0] - self.pos[0]\n        disty = target_pos[1] - self.pos[1]",
+        "detail": "challenges_2022.9dec.9dec1",
+        "documentation": {}
+    },
+    {
+        "label": "parse_file",
+        "kind": 2,
+        "importPath": "challenges_2022.9dec.9dec1",
+        "description": "challenges_2022.9dec.9dec1",
+        "peekOfCode": "def parse_file(filename):\n    with open(filename) as infile:\n        lines = infile.read().splitlines()\n    return lines\ndef run_sim(filename):\n    lines = parse_file(filename)\n    head = Head([0, 0])\n    tail = Tail(head, [0,0])\n    head.add_tail(tail)\n    tail_positions = []",
+        "detail": "challenges_2022.9dec.9dec1",
+        "documentation": {}
+    },
+    {
+        "label": "run_sim",
+        "kind": 2,
+        "importPath": "challenges_2022.9dec.9dec1",
+        "description": "challenges_2022.9dec.9dec1",
+        "peekOfCode": "def run_sim(filename):\n    lines = parse_file(filename)\n    head = Head([0, 0])\n    tail = Tail(head, [0,0])\n    head.add_tail(tail)\n    tail_positions = []\n    for line in lines:\n        command, distance = line.split(' ')\n        distance = int(distance)\n        direction = directions[command]",
+        "detail": "challenges_2022.9dec.9dec1",
+        "documentation": {}
+    },
+    {
+        "label": "directions",
+        "kind": 5,
+        "importPath": "challenges_2022.9dec.9dec1",
+        "description": "challenges_2022.9dec.9dec1",
+        "peekOfCode": "directions = {\n              'L' : (-1, 0),\n              'U' : (0, 1),\n              'D' : (0, -1),\n              'R' : (1, 0),\n             }\nclass Head:\n    def __init__(self, pos: tuple):\n        self.pos = pos\n        self.tail = None",
+        "detail": "challenges_2022.9dec.9dec1",
+        "documentation": {}
+    },
+    {
+        "label": "Head",
+        "kind": 6,
+        "importPath": "challenges_2022.9dec.9dec2",
+        "description": "challenges_2022.9dec.9dec2",
+        "peekOfCode": "class Head:\n    def __init__(self, pos: tuple):\n        self.pos = pos\n        self.tail = None\n    def add_tail(self, tail):\n        self.tail = tail\n    def move(self, direction: tuple, distance: int) -> list:\n        tail_positions = []\n        for _ in range(distance):\n            self.pos = list(map(add, direction, self.pos))",
+        "detail": "challenges_2022.9dec.9dec2",
+        "documentation": {}
+    },
+    {
+        "label": "Tail",
+        "kind": 6,
+        "importPath": "challenges_2022.9dec.9dec2",
+        "description": "challenges_2022.9dec.9dec2",
+        "peekOfCode": "class Tail:\n    def __init__(self, head, pos: tuple):\n        self.head = head\n        self.pos = pos\n        self.tail = None\n    def add_tail(self, tail):\n        self.tail = tail\n    def follow(self, target_pos: tuple):\n        # check if target pos close\n        # if true dont move",
+        "detail": "challenges_2022.9dec.9dec2",
+        "documentation": {}
+    },
+    {
+        "label": "parse_file",
+        "kind": 2,
+        "importPath": "challenges_2022.9dec.9dec2",
+        "description": "challenges_2022.9dec.9dec2",
+        "peekOfCode": "def parse_file(filename):\n    with open(filename) as infile:\n        lines = infile.read().splitlines()\n    return lines\ndef run_sim(filename):\n    lines = parse_file(filename)\n    head = Head([0, 0])\n    tail1 = Tail(head, [0,0])\n    head.add_tail(tail1)\n    tails = [tail1]",
+        "detail": "challenges_2022.9dec.9dec2",
+        "documentation": {}
+    },
+    {
+        "label": "run_sim",
+        "kind": 2,
+        "importPath": "challenges_2022.9dec.9dec2",
+        "description": "challenges_2022.9dec.9dec2",
+        "peekOfCode": "def run_sim(filename):\n    lines = parse_file(filename)\n    head = Head([0, 0])\n    tail1 = Tail(head, [0,0])\n    head.add_tail(tail1)\n    tails = [tail1]\n    for i in range(8):\n        tail = Tail(tails[i], [0,0])\n        tails[i].add_tail(tail)\n        tails.append(tail)",
+        "detail": "challenges_2022.9dec.9dec2",
+        "documentation": {}
+    },
+    {
+        "label": "directions",
+        "kind": 5,
+        "importPath": "challenges_2022.9dec.9dec2",
+        "description": "challenges_2022.9dec.9dec2",
+        "peekOfCode": "directions = {\n              'L' : (-1, 0),\n              'U' : (0, 1),\n              'D' : (0, -1),\n              'R' : (1, 0),\n             }\nclass Head:\n    def __init__(self, pos: tuple):\n        self.pos = pos\n        self.tail = None",
+        "detail": "challenges_2022.9dec.9dec2",
+        "documentation": {}
+    },
+    {
+        "label": "Head",
+        "kind": 6,
+        "importPath": "challenges_2022.9dec.challenge2",
+        "description": "challenges_2022.9dec.challenge2",
+        "peekOfCode": "class Head:\n    def __init__(self, pos: tuple):\n        self.pos = pos\n        self.tail = None\n    def add_tail(self, tail):\n        self.tail = tail\n    def move(self, direction: tuple, distance: int) -> list:\n        tail_positions = []\n        for _ in range(distance):\n            self.pos = list(map(add, direction, self.pos))",
+        "detail": "challenges_2022.9dec.challenge2",
+        "documentation": {}
+    },
+    {
+        "label": "Tail",
+        "kind": 6,
+        "importPath": "challenges_2022.9dec.challenge2",
+        "description": "challenges_2022.9dec.challenge2",
+        "peekOfCode": "class Tail:\n    def __init__(self, head, pos: tuple):\n        self.head = head\n        self.pos = pos\n        self.tail = None\n    def add_tail(self, tail):\n        self.tail = tail\n    def follow(self, target_pos: tuple):\n        # check if target pos close\n        # if true dont move",
+        "detail": "challenges_2022.9dec.challenge2",
+        "documentation": {}
+    },
+    {
+        "label": "parse_file",
+        "kind": 2,
+        "importPath": "challenges_2022.9dec.challenge2",
+        "description": "challenges_2022.9dec.challenge2",
+        "peekOfCode": "def parse_file(filename):\n    with open(filename) as infile:\n        lines = infile.read().splitlines()\n    return lines\ndef run_sim(filename):\n    lines = parse_file(filename)\n    head = Head([12,5])\n    tail1 = Tail(head, [12,5])\n    head.add_tail(tail1)\n    tails = [tail1]",
+        "detail": "challenges_2022.9dec.challenge2",
+        "documentation": {}
+    },
+    {
+        "label": "run_sim",
+        "kind": 2,
+        "importPath": "challenges_2022.9dec.challenge2",
+        "description": "challenges_2022.9dec.challenge2",
+        "peekOfCode": "def run_sim(filename):\n    lines = parse_file(filename)\n    head = Head([12,5])\n    tail1 = Tail(head, [12,5])\n    head.add_tail(tail1)\n    tails = [tail1]\n    for i in range(9): # forgotten one tail ffs\n        tail = Tail(tails[i], [12,5])\n        tails[i].add_tail(tail)\n        tails.append(tail)",
+        "detail": "challenges_2022.9dec.challenge2",
+        "documentation": {}
+    },
+    {
+        "label": "directions",
+        "kind": 5,
+        "importPath": "challenges_2022.9dec.challenge2",
+        "description": "challenges_2022.9dec.challenge2",
+        "peekOfCode": "directions = {\n              'L' : (-1, 0),\n              'U' : (0, 1),\n              'D' : (0, -1),\n              'R' : (1, 0),\n             }\nclass Head:\n    def __init__(self, pos: tuple):\n        self.pos = pos\n        self.tail = None",
+        "detail": "challenges_2022.9dec.challenge2",
+        "documentation": {}
+    },
+    {
+        "label": "tot",
+        "kind": 5,
+        "importPath": "challenges_2023.1dec.1dec1",
+        "description": "challenges_2023.1dec.1dec1",
+        "peekOfCode": "tot = 0\nfor line in lines:\n    digits = [a for a in line if a.isdigit()]\n    tot += int(digits[0] + digits[-1])\n# challenge 1\nprint(tot)\n# challenge 2",
+        "detail": "challenges_2023.1dec.1dec1",
+        "documentation": {}
+    },
+    {
+        "label": "extract_digits",
+        "kind": 2,
+        "importPath": "challenges_2023.1dec.1dec2",
+        "description": "challenges_2023.1dec.1dec2",
+        "peekOfCode": "def extract_digits(line):\n    # Extracts digits (both numerical and spelled out) from the line\n    digits = re.findall(r'\\d+|[a-zA-Z]+', line)\n    # Converts spelled-out digits to numerical digits\n    digit_mapping = {'one': '1', 'two': '2', 'three': '3', 'four': '4', 'five': '5', 'six': '6', 'seven': '7', 'eight': '8', 'nine': '9'}\n    # Get indices of digit mapping keys in the line\n    indices = [line.find(key) for key in digit_mapping.keys() if key in line]\n    # Extract the corresponding literal digits\n    literal_digits = [line[index] for index in indices]\n    # Combine numerical and literal digits",
+        "detail": "challenges_2023.1dec.1dec2",
+        "documentation": {}
+    },
+    {
+        "label": "sum_calibration_values",
+        "kind": 2,
+        "importPath": "challenges_2023.1dec.1dec2",
+        "description": "challenges_2023.1dec.1dec2",
+        "peekOfCode": "def sum_calibration_values(lines):\n    # Calculates the calibration values for each line\n    calibration_values = [extract_digits(line) for line in lines if line]\n    # Returns the sum of all calibration values\n    return sum(calibration_values)\nwith open('input.txt', 'r') as infile:\n    lines = infile.read().splitlines()\nprint(sum_calibration_values(lines))",
+        "detail": "challenges_2023.1dec.1dec2",
+        "documentation": {}
+    },
+    {
+        "label": "RED_LIM",
+        "kind": 5,
+        "importPath": "challenges_2023.2dec.2dec1",
+        "description": "challenges_2023.2dec.2dec1",
+        "peekOfCode": "RED_LIM = 12\nGREEN_LIM = 13\nBLUE_LIM = 14\ntot = 0\nfor line in lines:\n    game, pulls = line.split(':')\n    id = re.search(r\"\\d+\", game).group(0)\n    reds = re.findall(r\"(\\d+)\\sred\", pulls)\n    blues = re.findall(r\"(\\d+)\\sblue\", pulls)\n    greens = re.findall(r\"(\\d+)\\sgreen\", pulls)",
+        "detail": "challenges_2023.2dec.2dec1",
+        "documentation": {}
+    },
+    {
+        "label": "GREEN_LIM",
+        "kind": 5,
+        "importPath": "challenges_2023.2dec.2dec1",
+        "description": "challenges_2023.2dec.2dec1",
+        "peekOfCode": "GREEN_LIM = 13\nBLUE_LIM = 14\ntot = 0\nfor line in lines:\n    game, pulls = line.split(':')\n    id = re.search(r\"\\d+\", game).group(0)\n    reds = re.findall(r\"(\\d+)\\sred\", pulls)\n    blues = re.findall(r\"(\\d+)\\sblue\", pulls)\n    greens = re.findall(r\"(\\d+)\\sgreen\", pulls)\n    if any([int(i)>RED_LIM for i in reds]) or any([int(i)>BLUE_LIM for i in blues]) or any([int(i)>GREEN_LIM for i in greens]):",
+        "detail": "challenges_2023.2dec.2dec1",
+        "documentation": {}
+    },
+    {
+        "label": "BLUE_LIM",
+        "kind": 5,
+        "importPath": "challenges_2023.2dec.2dec1",
+        "description": "challenges_2023.2dec.2dec1",
+        "peekOfCode": "BLUE_LIM = 14\ntot = 0\nfor line in lines:\n    game, pulls = line.split(':')\n    id = re.search(r\"\\d+\", game).group(0)\n    reds = re.findall(r\"(\\d+)\\sred\", pulls)\n    blues = re.findall(r\"(\\d+)\\sblue\", pulls)\n    greens = re.findall(r\"(\\d+)\\sgreen\", pulls)\n    if any([int(i)>RED_LIM for i in reds]) or any([int(i)>BLUE_LIM for i in blues]) or any([int(i)>GREEN_LIM for i in greens]):\n        continue",
+        "detail": "challenges_2023.2dec.2dec1",
+        "documentation": {}
+    },
+    {
+        "label": "tot",
+        "kind": 5,
+        "importPath": "challenges_2023.2dec.2dec1",
+        "description": "challenges_2023.2dec.2dec1",
+        "peekOfCode": "tot = 0\nfor line in lines:\n    game, pulls = line.split(':')\n    id = re.search(r\"\\d+\", game).group(0)\n    reds = re.findall(r\"(\\d+)\\sred\", pulls)\n    blues = re.findall(r\"(\\d+)\\sblue\", pulls)\n    greens = re.findall(r\"(\\d+)\\sgreen\", pulls)\n    if any([int(i)>RED_LIM for i in reds]) or any([int(i)>BLUE_LIM for i in blues]) or any([int(i)>GREEN_LIM for i in greens]):\n        continue\n    tot += int(id)",
+        "detail": "challenges_2023.2dec.2dec1",
+        "documentation": {}
+    },
+    {
+        "label": "tot",
+        "kind": 5,
+        "importPath": "challenges_2023.2dec.2dec2",
+        "description": "challenges_2023.2dec.2dec2",
+        "peekOfCode": "tot = 0\nfor line in lines:\n    game, pulls = line.split(':')\n    id = re.search(r\"\\d+\", game).group(0)\n    reds = max([int(i) for i in re.findall(r\"(\\d+)\\sred\", pulls)])\n    blues = max([int(i) for i in re.findall(r\"(\\d+)\\sblue\", pulls)])\n    greens = max([int(i) for i in re.findall(r\"(\\d+)\\sgreen\", pulls)])\n    tot += reds * blues * greens \nprint(tot)",
+        "detail": "challenges_2023.2dec.2dec2",
+        "documentation": {}
+    },
+    {
+        "label": "is_symbol",
+        "kind": 2,
+        "importPath": "challenges_2023.3dec.3dec1",
+        "description": "challenges_2023.3dec.3dec1",
+        "peekOfCode": "def is_symbol(char):\n    symbols = [re.findall(r\"(\\D)\", line) for line in lines]\n    symbols = [[i for i in a if i != '.'] for a in symbols]\n    symbols = set([item for sublist in symbols for item in sublist])\n    return char in symbols\ndef get_line(line: str):\n    global count\n    line = re.findall(r\"(\\d+|\\D)\", line)\n    result = []\n    for match in line:",
+        "detail": "challenges_2023.3dec.3dec1",
+        "documentation": {}
+    },
+    {
+        "label": "get_line",
+        "kind": 2,
+        "importPath": "challenges_2023.3dec.3dec1",
+        "description": "challenges_2023.3dec.3dec1",
+        "peekOfCode": "def get_line(line: str):\n    global count\n    line = re.findall(r\"(\\d+|\\D)\", line)\n    result = []\n    for match in line:\n        if match.isdigit():\n            count += 1\n            result.extend([match] * len(match))\n        else:\n            result.append(match)",
+        "detail": "challenges_2023.3dec.3dec1",
+        "documentation": {}
+    },
+    {
+        "label": "grid",
+        "kind": 5,
+        "importPath": "challenges_2023.3dec.3dec1",
+        "description": "challenges_2023.3dec.3dec1",
+        "peekOfCode": "grid = [get_line(line) for line in lines]\nfor x, row in enumerate(grid):\n    for y, col in enumerate(row):\n        a = grid[x][y]\n        if a.isdigit():\n            ...",
+        "detail": "challenges_2023.3dec.3dec1",
+        "documentation": {}
+    },
+    {
+        "label": "tot",
+        "kind": 5,
+        "importPath": "challenges_2023.4dec.4dec1",
+        "description": "challenges_2023.4dec.4dec1",
+        "peekOfCode": "tot = 0\nfor line in lines:\n    _, pulls = line.split(':')\n    win, have = pulls.split('|')\n    win = re.findall(r'\\d+', win)\n    have = re.findall(r'\\d+', have)\n    count = len([i for i in win if i in have])\n    tot += int(2**(count-1))\nprint(tot)",
+        "detail": "challenges_2023.4dec.4dec1",
+        "documentation": {}
+    }
+]
