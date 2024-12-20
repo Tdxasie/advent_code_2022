@@ -15,17 +15,17 @@ for line in lines[2:]:
 
 
 current_nodes = list(filter(lambda n: re.match(r"\w\wA", n), tree.keys()))
-print(current_nodes)
 
 steps = 0
 
-while True:
+r = re.compile(r"\w\wZ")
+
+a = 'DVA'
+
+while not re.match(r, a):
     for inst in instructions:
-        for i, node in enumerate(current_nodes):
-            current_nodes[i] = tree[node][inst]
+        a = tree[node.strip()][inst]
         steps +=1
-        if any([re.match(r"\w\wZ", i ) is not None for i in current_nodes]) and steps%100 == 0:
-            print(current_nodes)
-        if all([re.match(r"\w\wZ", i ) is not None for i in current_nodes]):
-            print(steps)
-            sys.exit(1)
+        if re.match(r, a):
+            print(a)
+            break
